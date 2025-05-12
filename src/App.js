@@ -65,7 +65,7 @@ const HomePage = () => {
             <div
               className="h-48 bg-cover bg-center"
               style={{
-                backgroundImage: "url(/asset/aluminiumExtrusion.jpg)",
+                backgroundImage: "url(asset/aluminiumExtrusion.jpg)",
               }}
             ></div>
             <div className="p-6">
@@ -84,7 +84,7 @@ const HomePage = () => {
             <div
               className="h-48 bg-cover bg-center"
               style={{
-                backgroundImage: "url(/asset/powder-coatings.jpg)",
+                backgroundImage: "url(asset/powder-coatings.jpg)",
               }}
             ></div>
             <div className="p-6">
@@ -101,7 +101,7 @@ const HomePage = () => {
             <div
               className="h-48 bg-cover bg-center"
               style={{
-                backgroundImage: "url(/asset/anodizing-min.jpg)",
+                backgroundImage: "url(asset/anodizing-min.jpg)",
               }}
             ></div>
             <div className="p-6">
@@ -123,22 +123,22 @@ const HomePage = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
               {
-                icon: "/asset/automotive_frame.webp",
+                icon: "asset/automotive_frame.webp",
                 title: "Automotive",
                 desc: "Lightweight extrusions for frames and bumpers.",
               },
               {
-                icon: "/asset/construction-Frame.jpg",
+                icon: "asset/construction-Frame.jpg",
                 title: "Construction",
                 desc: "Facades, doors, curtain walls & structures.",
               },
               {
-                icon: "/asset/solar-frames.jpg",
+                icon: "asset/solar-frames.jpg",
                 title: "Renewable Energy",
                 desc: "High-strength solar & wind frames.",
               },
               {
-                icon: "/asset/custom-Frames.avif",
+                icon: "asset/custom-Frames.avif",
                 title: "Machinery",
                 desc: "Custom profiles for automation systems.",
               },
@@ -232,32 +232,32 @@ const HomePage = () => {
               {
                 title: "Precision Tooling",
                 desc: "In-house die manufacturing and maintenance using CNC and EDM technology for exacting specifications.",
-                img: "/asset/tooling.jpg",
+                img: "asset/tooling.jpg",
               },
               {
                 title: "Thermal Break Production",
                 desc: "Advanced polyamide strip insertion lines for energy-efficient building systems.",
-                img: "/asset/thermal.jpg",
+                img: "asset/thermal.jpg",
               },
               {
                 title: "Powder Coating Plants",
                 desc: "Fully automated vertical and horizontal coating lines for uniform finishes.",
-                img: "/asset/powder-coating.jpg",
+                img: "asset/powder-coating.jpg",
               },
               {
                 title: "Anodizing Units",
                 desc: "Electrochemical stations with controlled baths for consistent surface treatment and color.",
-                img: "/asset/anodizing.webp",
+                img: "asset/anodizing.webp",
               },
               {
                 title: "Fabrication Workshop",
                 desc: "Precision saws, punching machines, tapping units, and CNC machining centers.",
-                img: "/asset/fabrication.jpg",
+                img: "asset/fabrication.jpg",
               },
               {
                 title: "Packaging & Logistics",
                 desc: "Automated wrapping, labeling, and logistics systems for product safety and efficiency.",
-                img: "/asset/logistics.jpg",
+                img: "asset/logistics.jpg",
               },
             ].map((item, idx) => (
               <div
